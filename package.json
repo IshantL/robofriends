@@ -2,13 +2,17 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/IshantL/robofriends",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4",
     "tachyons": "^4.10.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
