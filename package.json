@@ -2,7 +2,7 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/IshantL/robofriends",
+  "homepage": "https://ishantl.github.io/robofriends/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.0",
